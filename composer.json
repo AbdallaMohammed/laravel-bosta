@@ -1,5 +1,5 @@
 {
-    "name": "almesery/laravel-bosta",
+    "name": "abdallahmohammed/laravel-bosta",
     "description": "laravel-bosta",
     "keywords": [
         "almesery",
@@ -15,18 +15,18 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^7.4|^8.*",
         "ext-curl": "*",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^7.2",
-        "illuminate/contracts": "^7.0",
-        "spatie/laravel-package-tools": "^1.1"
+        "illuminate/contracts": "^7.0|^8.0|^9.0|^10.0",
+        "spatie/laravel-package-tools": "^1.15"
     },
     "require-dev": {
-        "orchestra/testbench": "^5.0",
+        "orchestra/testbench": "^5.0|^6.0|^7.0|^8.0",
         "phpunit/phpunit": "^9.3",
-        "spatie/laravel-ray": "^1.9",
-        "vimeo/psalm": "^4.4"
+        "spatie/laravel-ray": "^1.32",
+        "vimeo/psalm": "^5"
     },
     "autoload": {
         "psr-4": {
