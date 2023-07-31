@@ -2,20 +2,26 @@
     "name": "abdallahmohammed/laravel-bosta",
     "description": "laravel-bosta",
     "keywords": [
-        "almesery",
+        "bosta",
+        "shipping",
         "laravel-bosta"
     ],
-    "homepage": "https://github.com/almesery/laravel-bosta",
+    "homepage": "https://github.com/AbdallaMohammed/laravel-bosta",
     "license": "MIT",
     "authors": [
         {
             "name": "almesery",
             "email": "abdelrahman.pme18@suezuni.edu.eg",
             "role": "BackEnd Developer"
+        },
+        {
+            "name": "AbdallahMohammed",
+            "email": "abdallah.r660@gmail.com",
+            "role": "Back-end Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.*",
+        "php": "^7.4|^8.0|^8.1",
         "ext-curl": "*",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^7.2",
@@ -30,12 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Almesery\\Bosta\\": "src"
+            "LaravelBosta\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Almesery\\Bosta\\Tests\\": "tests"
+            "LaravelBosta\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +55,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Almesery\\Bosta\\BostaServiceProvider"
+                "LaravelBosta\\BostaServiceProvider"
             ],
             "aliases": {
-                "Bosta": "Almesery\\Bosta\\Facades\\BostaFacade"
+                "Bosta": "LaravelBosta\\Facades\\BostaFacade"
             }
         }
     },

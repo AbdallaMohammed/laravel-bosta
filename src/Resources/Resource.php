@@ -1,8 +1,8 @@
 <?php
 
-namespace Almesery\Bosta\Resources;
+namespace LaravelBosta\Resources;
 
-use Almesery\Bosta\Bosta;
+use LaravelBosta\Bosta;
 
 class Resource
 {

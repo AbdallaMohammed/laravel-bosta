@@ -1,8 +1,8 @@
 <?php
 
-namespace Almesery\Bosta;
+namespace LaravelBosta;
 
-use Almesery\Bosta\Exceptions\TimeoutException;
+use LaravelBosta\Exceptions\TimeoutException;
 use Exception;
 
 trait MakesHttpRequests

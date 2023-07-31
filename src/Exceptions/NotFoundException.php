@@ -1,6 +1,6 @@
 <?php
 
-namespace Almesery\Bosta\Exceptions;
+namespace LaravelBosta\Exceptions;
 
 use Exception;
 

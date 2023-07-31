@@ -1,6 +1,6 @@
 <?php
 
-namespace Almesery\Bosta\Tests;
+namespace LaravelBosta\Tests;
 
 class ExampleTest extends TestCase
 {

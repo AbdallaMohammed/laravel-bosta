@@ -1,6 +1,6 @@
 <?php
 
-namespace Almesery\Bosta\Actions;
+namespace LaravelBosta\Actions;
 
 trait ManageCity
 {

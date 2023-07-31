@@ -1,6 +1,6 @@
 <?php
 
-namespace Almesery\Bosta\Resources;
+namespace LaravelBosta\Resources;
 
 class Delivery extends Resource
 {

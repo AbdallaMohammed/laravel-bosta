@@ -1,10 +1,10 @@
 <?php
 
-namespace Almesery\Bosta;
+namespace LaravelBosta;
 
-use Almesery\Bosta\Actions\ManageCity;
-use Almesery\Bosta\Actions\ManageDelivery;
-use Almesery\Bosta\Actions\ManagePickUpLocations;
+use LaravelBosta\Actions\ManageCity;
+use LaravelBosta\Actions\ManageDelivery;
+use LaravelBosta\Actions\ManagePickUpLocations;
 use Exception;
 use GuzzleHttp\Client;
 

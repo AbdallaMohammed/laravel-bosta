@@ -1,22 +1,22 @@
 # laravel-bosta
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/almesery/laravel-bosta.svg?style=flat-square)](https://packagist.org/packages/almesery/laravel-bosta)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/almesery/laravel-bosta/run-tests?label=tests)](https://github.com/almesery/laravel-bosta/actions?query=workflow%3ATests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/almesery/laravel-bosta.svg?style=flat-square)](https://packagist.org/packages/almesery/laravel-bosta)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/abdallahmohammed/laravel-bosta.svg?style=flat-square)](https://packagist.org/packages/abdallahmohammed/laravel-bosta)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/abdallahmohammed/laravel-bosta/run-tests?label=tests)](https://github.com/abdallahmohammed/laravel-bosta/actions?query=workflow%3ATests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/abdallahmohammed/laravel-bosta.svg?style=flat-square)](https://packagist.org/packages/abdallahmohammed/laravel-bosta)
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require almesery/laravel-bosta
+composer require abdallahmohammed/laravel-bosta
 ```
 
 You can publish and run the migrations with:
 
 You can publish the config file with:
 ```bash
-php artisan vendor:publish --provider="Almesery\Bosta\BostaServiceProvider" --tag="laravel-bosta-config"
+php artisan vendor:publish --provider="LaravelBosta\BostaServiceProvider" --tag="laravel-bosta-config"
 ```
 
 This is the contents of the published config file:
@@ -37,7 +37,7 @@ return [
 ## Usage
 
 ```php
-$bosta = new Almesery\Bosta();
+$bosta = new LaravelBosta();
 echo $bosta->getDeliveries();
 ```
 
@@ -62,6 +62,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## Credits
 
 - [almesery](https://github.com/almesery)
+- [AbdallahMohammed](https://github.com/AbdallaMohammed)
 - [All Contributors](../../contributors)
 
 ## License

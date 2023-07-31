@@ -1,8 +1,8 @@
 <?php
 
-namespace Almesery\Bosta\Tests;
+namespace LaravelBosta\Tests;
 
-use Almesery\Bosta\BostaServiceProvider;
+use LaravelBosta\BostaServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
